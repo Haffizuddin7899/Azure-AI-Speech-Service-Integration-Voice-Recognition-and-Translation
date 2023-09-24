@@ -1,0 +1,33 @@
+Overview:
+Building upon your recent Azure AI Speech service and Translator service labs, your task is to 
+integrate the Azure AI Speech service into an existing Python project. The objective is to record your voice 
+in English, save the audio file in .wav format in the same directory as the provided sample file "time.wav," 
+and modify the "speaking-clock.py" code to transcribe the recorded audio into text in both English and 
+Urdu. Subsequently, you will use the Translator service to translate the English transcription into Urdu. 
+Additionally, you will create a function to call your name, similar to the existing "TimeCall" function. 
+Furthermore, you should translate the recorded introduction into Urdu using the Translator service. This 
+task is graded, and all students are required to complete it.
+Instructions:
+1. Recording Your Voice in English:
+• Using an audio recording tool, record your voice in English, including an introduction of 
+yourself. The introduction should not exceed two minutes in duration.
+• Save the recorded audio as a .wav file. Ensure that the file name is unique and meaningful, 
+such as "yourname_intro.wav."
+• Place the recorded audio file in the same directory as the provided sample file "time.wav."
+2. Modifying "speaking-clock.py" Code:
+• Open the "speaking-clock.py" file in a text editor or IDE.
+• Utilize the Azure AI Speech service knowledge gained in recent labs to locate the code 
+section responsible for transcribing the "time.wav" file.
+• Modify this section to transcribe your recorded audio file ("yourname_intro.wav") instead.
+• Ensure that the transcription results are stored separately for English.
+3. Creating a Function to Call Your Name:
+• Use the Azure AI Speech service knowledge to create a new Python function in the 
+"speaking-clock.py" file.
+• Name this function after your name, for example, "YourNameCall."
+• Inside the function, use the Azure AI Speech service to recognize and read your name from 
+the recorded audio.
+4. Translation Using Azure Translator Service:
+• Leverage the Translator service knowledge from previous labs (Translator Service) to 
+translate the English transcription into Urdu.
+• Implement this translation within the "speaking-clock.py" file.
+• Store the translated audio separately
